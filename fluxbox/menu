@@ -1,0 +1,14 @@
+[begin] (the fluxbox menu)
+[exec] (xterm) {xterm -fg black -bg white -sb}
+[exec] (terminator) {terminator}
+[exec] (firefox) {firefox}
+[exec] (file manager) {pcmanfm --no-desktop}
+[exec] (vlc) {vlc}
+[separator]
+[submenu] (Default Menu) {}
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]
+[separator]
+[exec] (Lock) {/usr/bin/xlock -nice 19 -mode blank} 
+[exit] (Exit)
+[end]

@@ -1,0 +1,136 @@
+# ben-test
+# theme for fluxbox
+
+toolbar:                             flat solid
+toolbar.color:                       rgb:DB/DA/DB
+toolbar.textColor:		     rgb:45/45/45
+ 
+toolbar.clock:                       flat solid
+toolbar.clock.color:                 rgb:DB/DA/DB
+toolbar.clock.textColor:             black
+
+toolbar.iconbar.focused:                flat solid
+toolbar.iconbar.focused.color:          rgb:DB/DA/DB
+toolbar.iconbar.focused.textColor:      black
+
+toolbar.iconbar.unfocused:              flat solid
+toolbar.iconbar.unfocused.color:        rgb:C6/C5/C6
+toolbar.iconbar.unfocused.textColor:    white
+
+toolbar.iconbar.empty:                  flat solid
+toolbar.iconbar.empty.color:            rgb:DB/DA/DB
+
+toolbar.button:                 flat solid
+toolbar.button.color:           rgb:EA/EA/EA
+toolbar.button.picColor:        black
+
+toolbar.button.pressed:         sunken solid
+toolbar.button.pressed.color:   rgb:94/9B/99
+
+toolbar.label:                  flat solid
+toolbar.label.color:            rgb:DB/DA/DB
+toolbar.label.textColor:        black
+
+toolbar.windowLabel:            flat solid
+toolbar.windowLabel.color:      rgb:DB/DA/DB
+toolbar.windowLabel.textColor:  black
+
+menu.title:                          flat solid
+menu.title.color:                  rgb:31/59/9C
+menu.title.textColor:                white
+
+menu.frame:                          flat solid
+menu.frame.color:                    rgb:DB/DA/DB
+menu.frame.textColor:                rgb:45/45/45
+
+menu.hilite:                         flat solid
+menu.hilite.color:                   rgb:91/A3/9E
+menu.hilite.textColor:               white
+
+menu.bullet:                         triangle
+menu.bullet.position:                right
+
+! win focus
+window.title.focus:                  flat solid
+window.title.focus.color:            rgb:D9/D9/D9
+
+window.label.focus:                  flat solid
+window.label.focus.color:          rgb:31/59/9C
+window.label.focus.textColor:        white
+
+window.button.focus:                 flat solid
+window.button.focus.color:           rgb:EA/EA/EA
+window.button.focus.picColor:        rgb:35/35/35
+
+window.button.pressed:               flat solid
+window.button.pressed.color:         rgb:94/9B/99
+
+window.handle.focus:                 flat solid
+window.handle.focus.color:           rgb:EA/EA/EA
+
+window.grip.focus:                   flat solid
+window.grip.focus.color:           rgb:31/59/9C
+
+window.frame.focusColor:             black
+
+
+! unfocused win
+window.title.unfocus:                flat solid
+window.title.unfocus.color:          rgb:D9/D9/D9
+
+
+window.label.unfocus:                flat solid
+window.label.unfocus.color:        rgb:A7/A6/A7
+window.label.unfocus.textColor:      white
+
+window.button.unfocus:               flat solid
+window.button.unfocus.color:       rgb:94/9B/99
+window.button.unfocus.picColor:      rgb:35/35/35
+
+window.handle.unfocus:               flat solid
+window.handle.unfocus.color:         rgb:EA/EA/EA
+
+window.grip.unfocus:                 flat solid
+window.grip.unfocus.color:           rgb:EA/EA/EA
+
+window.frame.unfocusColor:           black
+
+! ----------- tab - explicit for fluxbox, the best wm out there[tm] (;
+window.tab.justify:                  left
+
+window.tab.label.unfocus:            flat solid
+window.tab.label.unfocus.color:    rgb:A7/A6/A7
+window.tab.label.unfocus.textColor:  white
+
+window.tab.label.focus:              flat solid
+window.tab.label.focus.color:      rgb:31/59/9C
+window.tab.label.focus.textColor:    white
+
+window.tab.borderWidth:              1
+window.tab.borderColor:              black
+! ----------- (fluxbox.sourceforge.net)
+
+! fonts
+! window.tab.font:                     -*-gamow-medium-r-*-*-7-*-*-*-*-60-*-*
+window.tab.font:			dejavusans-8
+! ^ change this to dejavusans-10 if you don't have gamow
+
+
+*.font:                              dejavusans-8
+
+toolbar.justify:                     left
+window.justify:                      left
+menu.title.justify:                  left
+menu.frame.justify:                  left
+
+! borders n stuff
+borderColor:                         black
+borderWidth:                         1
+bevelWidth:                          1
+handleWidth:                         3
+frameWidth:                          0
+
+! background:           aspect
+! background.pixmap:	/home/baugust/images/0416577.jpg      
+background:             solid
+background.color:       steelblue4
